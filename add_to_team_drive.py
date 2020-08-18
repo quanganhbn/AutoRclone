@@ -32,8 +32,8 @@ except IndexError:
 if not args.yes:
     # input('Make sure the following client id is added to the shared drive as Manager:\n' + json.loads((open(
     # credentials[0],'r').read()))['installed']['client_id'])
-    input('>> Make sure the **Google account** that has generated credentials.json\n   is added into your Team Drive '
-          '(shared drive) as Manager\n>> (Press any key to continue)')
+    input('>> Hãy đảm bảo **Google account** của bạn đã tạo credentials.json\n   đã được thêm vào Team Drive '
+          '(shared drive) as Manager\n>> (Nhấn phím bất kì để tiếp tục...)')
 
 creds = None
 if os.path.exists('token.pickle'):
